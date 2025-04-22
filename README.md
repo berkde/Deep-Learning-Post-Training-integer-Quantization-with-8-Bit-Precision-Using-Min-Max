@@ -31,15 +31,13 @@ The script performs the following:
    ```
 ##   Results
 
-* 
+**Model Performance and Size Comparison**
 
-    **Model Performance and Size Comparison**
-
-    | Metric                                                              | Baseline Keras Model | Dynamically Quantized TFLite Model | Fully Integer Quantized TFLite Model |
-    | :------------------------------------------------------------------ |:---------------------| :--------------------------------- | :----------------------------------- |
-    | Accuracy                                                              | 0.9834               | 0.9834               | 0.9831                   |
-    | File Size (approximate for Baseline)                                  | 661.91 KB            | 214.85 KB           | 57.20 KB             |
-    | Inference Time (ms/sample)                                            | 14.4569              | 0.0233                  | 0.0198               |
+| Metric                                                              | Baseline Keras Model | Dynamically Quantized TFLite Model | Fully Integer Quantized TFLite Model |
+| :------------------------------------------------------------------ |:---------------------| :--------------------------------- | :----------------------------------- |
+| Accuracy                                                              | 0.9834               | 0.9834               | 0.9831                   |
+| File Size (approximate for Baseline)                                  | 661.91 KB            | 214.85 KB           | 57.20 KB             |
+| Inference Time (ms/sample)                                            | 14.4569              | 0.0233                  | 0.0198               |
 
 
 
